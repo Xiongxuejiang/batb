@@ -1,0 +1,29 @@
+#远程nginx服务器路径
+config_remote_server_paths=(/home/product/installed/apache-tomcat-8.5.9)
+
+#远程服务器用户
+config_remote_users=(root)
+
+#远程服务器ip
+config_remote_ips="118.178.89.40"
+
+#远程服务器端口
+config_remote_ports=(22)
+
+#远程服务器密码 可以不设置如果你的记性足够好
+config_remote_pwds=("111111")
+
+#远程server_flags 一般习惯于设置成ip地址最后一个点后面的值
+config_remote_server_flags=(5)
+
+#本地nginx salary_h5 目录
+config_local_server_path="/Users/houjinxin/Documents/apache-tomcat-8.5.9"
+
+#项目本地路径 工程的父级目录
+config_local_project_basepath="/usr/project/salary_h5"
+
+#项目名称
+config_project_name="dist"
+
+#项目git地址
+config_repository_url="git@118.178.89.40:salary_h5.git"
